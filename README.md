@@ -1,24 +1,20 @@
-# README
+# Ruby on Rails Tutorial
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## "toy app!"
 
-Things you may want to cover:
+This is the second application for the
+[*Ruby on Rails Tutorial*](http://www.railstutorial.org/)
+by [Michael Hartl](http://www.michaelhartl.com/). 
 
-* Ruby version
+using scaffold
 
-* System dependencies
+------------------------------------------
+note:
+$ rails generate scaffold User name:string email:string
+$ rails db:migrate
+$ rails server
 
-* Configuration
+$ rake routes
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+$ rails generate scaffold Micropost content:text user_id:integer
+$ rails db:migrate
