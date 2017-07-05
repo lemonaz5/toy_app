@@ -19,4 +19,4 @@ $ rake routes
 $ rails generate scaffold Micropost content:text user_id:integer
 $ rails db:migrate
 
-https://lovely-joshua-tree-45336.herokuapp.com/users/new
+https://lovely-joshua-tree-45336.herokuapp.com
